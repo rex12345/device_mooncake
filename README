@@ -1,0 +1,2 @@
+Kernel and recovery kernel from Blade. I haven't changed it yet. 
+/system/bin/netd not work =( You should use netd from prebuilt/
