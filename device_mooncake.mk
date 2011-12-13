@@ -124,6 +124,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/zte/mooncake/prebuilt/bootanimation.zip:system/media/bootanimation.zip 
 
+# apns
+PRODUCT_COPY_FILES += \
+    device/zte/mooncake/apns-conf.xml:system/etc/apns-conf.xml
+
 PRODUCT_PROPERTY_OVERRIDES := \
     keyguard.no_require_sim=true \
     ro.com.android.dateformat=dd-MM-yyyy \
