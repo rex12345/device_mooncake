@@ -29,6 +29,7 @@ USE_CAMERA_STUB := false
 # sorry.. but its not work. so need to use prebuilded
 BUILD_NETD := false
 BUILD_VOLD := false
+BUILD_VOLD2 := false
 #################
 
 BOARD_HAS_FLIPPED_SCREEN := false
@@ -70,7 +71,7 @@ JS_ENGINE := v8
 BOARD_EGL_CFG := device/zte/mooncake/egl.cfg
 
 # No fallback font by default (space savings)
-#NO_FALLBACK_FONT:=true
+NO_FALLBACK_FONT:=true
 
 BOARD_GPS_LIBRARIES := libloc_api
 

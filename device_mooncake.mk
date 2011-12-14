@@ -30,7 +30,8 @@ DEVICE_PACKAGE_OVERLAYS := device/zte/mooncake/overlay
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := zte_mooncake
 PRODUCT_DEVICE := mooncake
-PRODUCT_MODEL := ZTE Racer
+PRODUCT_MODEL := Racer
+PRODUCT_MANUFACTURER := ZTE
 
 PRODUCT_PACKAGES += \
     LiveWallpapers \
