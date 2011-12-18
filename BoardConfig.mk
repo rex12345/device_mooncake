@@ -70,9 +70,6 @@ JS_ENGINE := v8
 # OpenGL drivers config file path
 BOARD_EGL_CFG := device/zte/mooncake/egl.cfg
 
-# No fallback font by default (space savings)
-NO_FALLBACK_FONT:=true
-
 BOARD_GPS_LIBRARIES := libloc_api
 
 BOARD_USES_QCOM_HARDWARE := true
